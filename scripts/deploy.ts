@@ -1,3 +1,4 @@
+import "@nomiclabs/hardhat-ethers";
 import { ethers, run } from "hardhat";
 require("dotenv").config({ path: ".env" });
 

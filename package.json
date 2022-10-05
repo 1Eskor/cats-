@@ -1,23 +1,9 @@
 {
-  "name": "simple-shop-example",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy:hardhat": "npx hardhat run scripts/deploy.ts --network hardhat",
-    "deploy:goerli": "npx hardhat run scripts/deploy.ts --network goerli"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "@chainlink/contracts": "^0.5.1",
-    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
-    "@openzeppelin/contracts": "^4.7.3",
-    "hardhat": "^2.11.2"
+    "@types/node": "^18.8.2"
   },
   "dependencies": {
-    "dotenv": "^16.0.3"
+    "eslint": "^8.24.0",
+    "eslint-plugin-react": "^7.31.8"
   }
 }
